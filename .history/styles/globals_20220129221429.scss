@@ -1,0 +1,163 @@
+//fonts
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-BlackItalic.eot");
+  src: url("/fonts/Binaria-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-BlackItalic.woff2") format("woff2"),
+    url("/fonts/Binaria-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-Black.eot");
+  src: url("/fonts/Binaria-Black.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-Black.woff2") format("woff2"),
+    url("/fonts/Binaria-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-Bold.eot");
+  src: url("/fonts/Binaria-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-Bold.woff2") format("woff2"),
+    url("/fonts/Binaria-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-Light.eot");
+  src: url("/fonts/Binaria-Light.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-Light.woff2") format("woff2"),
+    url("/fonts/Binaria-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-BoldItalic.eot");
+  src: url("/fonts/Binaria-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-BoldItalic.woff2") format("woff2"),
+    url("/fonts/Binaria-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts//fonts/Binaria-LightItalic.eot");
+  src: url("/fonts//fonts/Binaria-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts//fonts/Binaria-LightItalic.woff2") format("woff2"),
+    url("/fonts//fonts/Binaria-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts//fonts/Binaria-MediumItalic.eot");
+  src: url("/fonts//fonts/Binaria-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts//fonts/Binaria-MediumItalic.woff2") format("woff2"),
+    url("/fonts//fonts/Binaria-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts//fonts/Binaria-Medium.eot");
+  src: url("/fonts//fonts/Binaria-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts//fonts/Binaria-Medium.woff2") format("woff2"),
+    url("/fonts//fonts/Binaria-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts//fonts/Binaria-Regular2.eot");
+  src: url("/fonts//fonts/Binaria-Regular2.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts//fonts/Binaria-Regular2.woff2") format("woff2"),
+    url("/fonts//fonts/Binaria-Regular2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria Regular";
+  src: url("/fonts/Binaria-RegularItalic.eot");
+  src: url("/fonts/Binaria-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Binaria-RegularItalic.woff2") format("woff2"),
+    url("/fonts/Binaria-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-Thin.eot");
+  src: url("/fonts/Binaria-Thin.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-Thin.woff2") format("woff2"),
+    url("/fonts/Binaria-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("/fonts/Binaria-ThinItalic.eot");
+  src: url("/fonts/Binaria-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Binaria-ThinItalic.woff2") format("woff2"),
+    url("/fonts/Binaria-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.dashboard {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+button.active-tab-btn {
+  background-color: rgb(240, 166, 126);
+  color: white;
+}

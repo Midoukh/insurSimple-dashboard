@@ -1,0 +1,27 @@
+$bg-color: rgb(247, 247, 250);
+$txt-color: #4b515d;
+
+.Container {
+  flex-grow: 2;
+  height: inherit;
+  max-height: auto;
+  background-color: $bg-color;
+  font-family: "Ramabhadra", sans-serif;
+  color: $txt-color;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.Quotes {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.Title {
+  width: 25vw;
+}
+.Title h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}

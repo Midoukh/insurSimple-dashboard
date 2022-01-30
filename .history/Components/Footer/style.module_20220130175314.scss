@@ -1,0 +1,41 @@
+.Container {
+  justify-content: flex-start;
+  padding: 0.8rem 1.5rem;
+  background-color: rgb(247, 247, 250);
+  box-shadow: inset 1px 2px 25px rgba(205, 205, 207, 0.431);
+  color: #4b515d;
+}
+
+.Container,
+.CallNow {
+  display: flex;
+  align-items: center;
+}
+.Container div {
+  margin-right: 3rem;
+}
+.Container h5 {
+  font-weight: 300;
+  margin-top: 0.6rem;
+  font-size: 1.05em;
+}
+.Container h4 {
+  margin-bottom: 0;
+}
+.Container h5 span,
+.CallNow h5 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #4b515db6;
+  cursor: pointer;
+}
+.CallNow h5 {
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+.Container > div:last-child h4 {
+  margin-bottom: 0;
+}
+.Number {
+  font-weight: 300;
+}

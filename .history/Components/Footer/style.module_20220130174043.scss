@@ -1,0 +1,25 @@
+.Container {
+  justify-content: flex-start;
+  padding: 0.8rem 1.5rem;
+  background-color: rgb(247, 247, 250);
+  box-shadow: inset 1px 2px 20px rgba(205, 205, 207, 0.431);
+  color: #4b515d;
+}
+
+.Container,
+.CallNow {
+  display: flex;
+  align-items: center;
+}
+.Container div {
+  margin-right: 2rem;
+}
+.Container h5 {
+  font-weight: 300;
+}
+.CallNow h5 {
+  margin-right: 0.5rem;
+}
+.Container > div:last-child h4 {
+  margin-bottom: 0;
+}

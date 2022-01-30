@@ -1,0 +1,24 @@
+{
+  "quotes": [
+    {
+      "price": 98.23,
+      "company": {
+        "name": "SBLI",
+        "logo": "SBLI.png"
+      },
+      "text": "Your rate gets locked once your policy goes into effect. It con't group as you get older or if your health changes",
+      "coverage": 1750000,
+      "term": 25
+    },
+    {
+      "price": 74.23,
+      "company": {
+        "name": "MetLife",
+        "logo": "metlife.png"
+      },
+      "text": "Your rate gets locked once your policy goes into effect. It con't group as you get older or if your health changes",
+      "coverage": 1500000,
+      "term": 30
+    }
+  ]
+}

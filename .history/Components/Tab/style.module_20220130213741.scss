@@ -1,0 +1,20 @@
+.Container {
+  flex-grow: 3;
+  width: 55%;
+  background-color: white;
+  height: 100%;
+}
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #4b515d;
+  padding: 2.2rem 0;
+}
+.Header img {
+  height: 145px !important;
+}
+.Gretting h4 {
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}

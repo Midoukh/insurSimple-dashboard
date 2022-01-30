@@ -1,0 +1,13 @@
+.Container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  animation-name: anim;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.Title {
+  padding: 0 3.4rem;
+}

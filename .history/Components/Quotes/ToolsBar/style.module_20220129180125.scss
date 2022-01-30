@@ -1,0 +1,22 @@
+.Container {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Container * {
+  margin-right: 1rem;
+}
+.Container img {
+  height: 35px !important;
+  border-radius: 5px !important;
+  margin-right: 0;
+}
+.Container svg {
+  font-size: 1.5em;
+}
+.NotificationSign {
+  height: 8px;
+  width: 8px;
+  background-color: #f2440d;
+}

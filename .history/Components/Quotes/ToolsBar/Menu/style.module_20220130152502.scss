@@ -1,0 +1,44 @@
+$txt-color: #4b515d;
+
+.Menu {
+  width: 15vw;
+  height: 30vh;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.178);
+  position: absolute;
+  top: 3rem;
+  right: -1rem;
+  z-index: 1;
+  color: $txt-color;
+  animation-name: anim;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+.Menu h3 {
+  opacity: 0.7;
+}
+.Menu img {
+  height: 15px !important;
+}
+.Menu li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.Menu li strong {
+  margin-left: 0.4rem;
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+    opacity: 0;
+  }
+  100% {
+    margin-top: unset;
+    opacity: 1;
+  }
+}

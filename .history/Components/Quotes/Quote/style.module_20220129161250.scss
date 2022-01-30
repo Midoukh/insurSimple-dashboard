@@ -1,0 +1,18 @@
+.Container {
+  height: 40vh;
+  width: 40vh;
+  display: flex;
+  flex-flow: column;
+  background-color: red;
+}
+.Container h1 {
+  margin: 0;
+}
+.PriceContainer img {
+  height: 40px !important;
+}
+.LockPrice,
+.CoverageAndTerm {
+  display: flex;
+  align-items: center;
+}

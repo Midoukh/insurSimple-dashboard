@@ -1,0 +1,14 @@
+.Container {
+  height: 25vh;
+  width: 25vh;
+  display: flex;
+  flex-flow: column;
+}
+.PriceContainer img {
+  height: 40px !important;
+}
+.LockPrice,
+.CoverageAndTerm {
+  display: flex;
+  align-items: center;
+}

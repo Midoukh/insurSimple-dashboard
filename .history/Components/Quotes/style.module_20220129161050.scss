@@ -1,0 +1,12 @@
+$bg-color: rgb(247, 247, 250);
+
+.Container {
+  flex-grow: 2;
+  height: inherit;
+  background-color: $bg-color;
+}
+.Quotes {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

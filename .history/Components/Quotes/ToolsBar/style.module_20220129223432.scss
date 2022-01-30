@@ -1,0 +1,36 @@
+.Container {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Container * {
+  margin-right: 1rem;
+}
+.Container > img:first-child {
+  height: 12px !important;
+}
+.UserLogo {
+  height: 35px !important;
+}
+.Container img:hover {
+  opacity: 0.8;
+}
+.Notification {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  margin: 0 0.7rem;
+}
+.Notification img {
+  height: 14.48px !important;
+}
+.NotificationSign {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #f2440d;
+  margin-left: 1rem;
+}

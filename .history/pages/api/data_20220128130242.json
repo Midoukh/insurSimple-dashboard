@@ -1,0 +1,34 @@
+{
+  "progress": [
+    {
+      "label": "Application",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "completed": true
+    },
+    {
+      "label": "Medical Exam",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "completed": true
+    },
+    {
+      "label": "Approved",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "completed": false
+    },
+    {
+      "label": "Payment",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "completed": false
+    },
+    {
+      "label": "Underwriting",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "completed": false
+    },
+    {
+      "label": "Covered",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "completed": false
+    }
+  ]
+}

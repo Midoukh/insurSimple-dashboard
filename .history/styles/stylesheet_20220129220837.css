@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-BlackItalic.eot");
+  src: url("Binaria-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-BlackItalic.woff2") format("woff2"),
+    url("Binaria-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-Black.eot");
+  src: url("Binaria-Black.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-Black.woff2") format("woff2"),
+    url("Binaria-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-Bold.eot");
+  src: url("Binaria-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-Bold.woff2") format("woff2"),
+    url("Binaria-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-Light.eot");
+  src: url("Binaria-Light.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-Light.woff2") format("woff2"),
+    url("Binaria-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-BoldItalic.eot");
+  src: url("Binaria-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-BoldItalic.woff2") format("woff2"),
+    url("Binaria-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-LightItalic.eot");
+  src: url("Binaria-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-LightItalic.woff2") format("woff2"),
+    url("Binaria-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-MediumItalic.eot");
+  src: url("Binaria-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-MediumItalic.woff2") format("woff2"),
+    url("Binaria-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-Medium.eot");
+  src: url("Binaria-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-Medium.woff2") format("woff2"),
+    url("Binaria-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-Regular2.eot");
+  src: url("Binaria-Regular2.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-Regular2.woff2") format("woff2"),
+    url("Binaria-Regular2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria Regular";
+  src: url("Binaria-RegularItalic.eot");
+  src: url("Binaria-RegularItalic.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-RegularItalic.woff2") format("woff2"),
+    url("Binaria-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-Thin.eot");
+  src: url("Binaria-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-Thin.woff2") format("woff2"),
+    url("Binaria-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url("Binaria-ThinItalic.eot");
+  src: url("Binaria-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("Binaria-ThinItalic.woff2") format("woff2"),
+    url("Binaria-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}

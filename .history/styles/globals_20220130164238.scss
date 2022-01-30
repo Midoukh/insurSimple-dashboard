@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mukta Malar", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.dashboard {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+}
+button.active-tab-btn {
+  background-color: rgb(240, 166, 126);
+  color: white;
+}
+div.approved-progress {
+  opacity: 1;
+}
+div.approved-progress-oval {
+  border: 3px solid rgb(240, 166, 126);
+  background-color: rgb(240, 166, 126);
+}
+.content-wrapper {
+  display: flex;
+  flex-flow: column;
+}
+.tab-and-quotes {
+  display: flex;
+}

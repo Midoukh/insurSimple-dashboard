@@ -1,0 +1,10 @@
+.Container {
+  flex-grow: 3;
+  background-color: white;
+  height: 100%;
+}
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

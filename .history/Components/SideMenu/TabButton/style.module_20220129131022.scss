@@ -1,0 +1,17 @@
+.TabButton {
+  width: 110px;
+  height: 110px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #cad3da;
+}
+.TabButton svg {
+  font-size: 2.5em;
+}
+.TabButton h3 {
+  margin: 0;
+  font-family: "Mukta Malar", sans-serif;
+}

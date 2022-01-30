@@ -1,0 +1,22 @@
+.AccordionItem {
+  list-style: none;
+  width: 485px;
+}
+.AccordionToggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ccc;
+  //   padding: 1em;
+}
+.AccordionToggle:hover {
+  background-color: #ddd;
+}
+.AccordionToggle h3 {
+  margin: 0;
+}
+.AccordionContent {
+  background-color: #eee;
+  //   padding: 1em;
+}

@@ -1,0 +1,28 @@
+$bg-color: rgb(247, 247, 250);
+
+.Container {
+  flex-grow: 1;
+  height: inherit;
+  background-color: $bg-color;
+  justify-content: space-around;
+}
+.Container,
+.TabsButtonsContainer {
+  display: flex;
+  flex-flow: column;
+}
+.TabsButtonsContainer {
+  align-items: center;
+}
+.TopLogoContainer,
+.BottomLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TopLogoContainer img {
+  height: 39px !important;
+}
+.BottomLogoContainer img {
+  height: 27px !important;
+}

@@ -1,0 +1,15 @@
+.Container {
+  flex-grow: 1;
+  height: 100%;
+  background-color: rgb(247, 247, 250);
+  justify-content: space-evenly;
+}
+.Container,
+.TabsButtonsContainer {
+  display: flex;
+  flex-flow: column;
+}
+.TopLogoContainer img,
+.BottomLogoContainer img {
+  height: 35px !important;
+}

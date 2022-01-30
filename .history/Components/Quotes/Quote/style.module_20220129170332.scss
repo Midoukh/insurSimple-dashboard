@@ -1,0 +1,56 @@
+.Container {
+  height: 42vh;
+  width: 25vw;
+  padding: 2.7rem;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  font-family: "Ramabhadra", sans-serif;
+  color: #4b515d;
+}
+.Container h1,
+.Container h3,
+.Container h5,
+.Container p {
+  margin: 0;
+}
+.PriceContainer img {
+  height: 18px !important;
+}
+.PriceContainer,
+.CoverageAndTerm {
+  justify-content: space-between;
+}
+.PriceContainer,
+.LockPrice,
+.CoverageAndTerm,
+.Price,
+.Separator {
+  display: flex;
+  align-items: center;
+}
+
+.LockPrice h3 {
+  font-size: 0.7em;
+}
+.Container p {
+  font-size: 0.6em;
+}
+.CoverageAndTerm h1 {
+  font-size: 1em;
+}
+.CoverageAndTerm h5 {
+  font-weight: lighter;
+}
+.Separator {
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+.Separator div {
+  height: 1px;
+  width: inherit;
+  background-color: rgb(240, 166, 126);
+}

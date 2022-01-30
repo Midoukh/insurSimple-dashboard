@@ -1,0 +1,11 @@
+{
+  "quotes": [
+    {
+      "price": 98.23,
+      "company": {
+        "name": "SBLI",
+        "logo": "SBLI.png"
+      }
+    }
+  ]
+}

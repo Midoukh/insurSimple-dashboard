@@ -1,0 +1,15 @@
+.Container {
+  height: 45vh;
+  width: 25vh;
+  display: flex;
+  flex-flow: column;
+  background-color: red;
+}
+.PriceContainer img {
+  height: 40px !important;
+}
+.LockPrice,
+.CoverageAndTerm {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,35 @@
+.Container {
+  height: 42vh;
+  width: 30vw;
+  padding: 3rem;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+}
+.Container h1,
+.Container h3,
+.Container h5,
+.Container p {
+  margin: 0;
+}
+.PriceContainer img {
+  height: 18px !important;
+}
+.PriceContainer,
+.CoverageAndTerm {
+  justify-content: space-between;
+}
+.PriceContainer,
+.LockPrice,
+.CoverageAndTerm {
+  display: flex;
+  align-items: center;
+}
+.Container p {
+  font-size: 0.7em;
+}
+.CoverageAndTerm h1 {
+  font-size: 1em;
+}

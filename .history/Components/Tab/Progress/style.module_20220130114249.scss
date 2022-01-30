@@ -1,0 +1,12 @@
+.Container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.Title h1 {
+  font-family: "Airbnb Cereal App";
+}
+.ListOfAccordions {
+  max-width: 768px;
+  color: #4b515d;
+}
